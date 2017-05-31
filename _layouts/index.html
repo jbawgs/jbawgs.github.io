@@ -14,7 +14,7 @@ layout: page
     <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date_to_string }}</time>
   </div>
   <div>
-    {{post.excerpt}}
+    {{post.excerpt}} ...
     <div class="post-descr">
       <p style="text-align: right"><a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">...Continued</a> {{ post.description }}
       </p>
