@@ -29,6 +29,7 @@ google_analytics_key:
 # Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrica:
 
+excerpt_separator: "<!--more-->"
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
