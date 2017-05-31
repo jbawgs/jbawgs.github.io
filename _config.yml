@@ -33,8 +33,8 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: ''
-comments: false
+disqus: 'vibrantd'
+comments: true
 
 permalink: /:year/:month/:title
 
