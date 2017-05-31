@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Post to New Jekyll Site"
+date: '2017-05-31 12:18:57 -0400'
 comments: true
 ---
 ## Sometimes, I like to blog about stuff.

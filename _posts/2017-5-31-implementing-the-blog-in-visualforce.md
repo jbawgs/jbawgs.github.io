@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Implementing a Blog in Visualforce"
+date: '2017-05-31 12:58:57 -0400'
 comments: true
 ---
 # Chugging the Kool-Aid
