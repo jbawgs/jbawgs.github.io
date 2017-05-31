@@ -5,7 +5,8 @@ title: About
 ---
 
 # Some info 
-...about how cool you are ;) `.sidebar li {
+...about how cool you are ;) 
+`.sidebar li {
   margin-top: .7em;
   line-height: 1em;
 }
