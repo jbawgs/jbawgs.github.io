@@ -10,7 +10,7 @@ The next feature I wanted to enable was the ability to tag posts simply, and hav
 When you're creating a new post in your org, you have a field beneath the post body like so: ![List of tags like so: tag1, tag2, tag3]({{ site.url | append:site.baseurl }}/images/tag-field.jpeg){: .wrap-img-right }
 
 And you simply type in your tags, and the rest is automagically performed by the hidden robot fairies.![Tags as links in VF Page]({{ site.url | append:site.baseurl }}/images/tag-impl.png)
-In the controller we have a Map<String, List<String>> which stores a post's Salesforce ID as the key, and a List of strings (that post's tags) as the value. Its declared with get/set at the top scope so that we can get at it with the VF page, and assigned whenever the getPosts() method is run. Here's the pertinent block of code in the controller:
+In the controller we have a Map<String, List<String>> which stores a post's Salesforce ID as the key, and a List of strings (that post's tags) as the value. Its declared with get/set at the top scope so that we can get at it with the VF page, and assigned whenever the getPosts() method is run. Here's the pertinent block of code in the controller:<!--more-->
 {% highlight java %}
     tags = new Map<String,List<String>>();
     for(Blog_Post__c post : posts){
