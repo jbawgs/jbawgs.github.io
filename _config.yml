@@ -19,11 +19,9 @@ share:
   email: true
 
 social:
-  github: ''
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
+  github: 'jbawgs'
+  stackoverflow: '3311049'
+  linkedin: 'jaboggs-83'
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
