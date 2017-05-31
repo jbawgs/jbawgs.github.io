@@ -50,7 +50,7 @@ When we use String.split(',') //split the string by commas we get a list of stri
 
 `['apex', ' visualforce', ' bugs', ' nightmares']` <<<<------ OMG
 
-It never crossed my mind those extra spaces at the beginning of some of the tags would cause me the hours-long nightmare that it totally did. In fact it never crossed my mind that those spaces existed, which is why it took two hours to fix. The solution was String.trim(). The trim() method just removes any whitespace from the beginning and end of your string. Problem solved. ![hackerman]({{ site.url | append:site.baseurl }}/images/small-hackerman.jpeg){: .wrap-img-right }
+It never crossed my mind those extra spaces at the beginning of some of the tags would cause me the hours-long nightmare that it totally did. In fact it never crossed my mind that those spaces existed, which is why it took two hours to fix. The solution was String.trim(). The trim() method just removes any whitespace from the beginning and end of your string. Problem solved. ![hackerman]({{ site.url | append:site.baseurl }}/images/small-hackerman.jpeg)
 SO! Now we have a map we can use, we just feed it a post ID and it spits out a list of the tags for that post.
 We render these on the VF page with a `<apex:repeat>` block.
 {% highlight java %}
