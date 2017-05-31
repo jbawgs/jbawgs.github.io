@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Post to New Jekyll Site"
+comments: true
 ---
 ## Sometimes, I like to blog about stuff.
 
