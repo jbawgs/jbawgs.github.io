@@ -18,7 +18,7 @@
 
 // Several accent colors, choose one or create your own!
 //$accent-color: #3CA2A2;    // original =)
-$accent-color: #C38FD6;  // velvet
+$accent-color: #ba1220;  // velvet
 //$accent-color: #8FD6B3;  // greenish
 //$accent-color: #35B4DE;  // bluish
 //$accent-color: #D2E354;  // yellowish
@@ -37,7 +37,7 @@ $warning-color: #ffff00;
 body {
   padding-top: 80px;
   color: $font-color;
-  background: $background-color url(./pics/triangles.png);
+  background: $background-color
   //background: $background-color url(./pics/squares.png); // Another good pattern for background
 }
 .well {
@@ -77,6 +77,9 @@ blockquote {
 }
 
 a {
+  color: $accent-color;
+}
+a:hover {
   color: $accent-color;
 }
 
