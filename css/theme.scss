@@ -41,6 +41,7 @@ $eight : #e6db74;
 $nine : #9effff;
 $ten : #fd971f;
 $eleven : #373831;
+$twelve : #e2e2c0;
 
 //********************************************************
 //                  Common styles
@@ -271,11 +272,12 @@ nav a {
   font-family: Ubuntu;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
+  color: $twelve;
 }
 nav.navbar {
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
-  background-color: $two;
+  background-color: $three;
 }
 nav.navbar.shrink {
   min-height: 15px;
@@ -297,7 +299,7 @@ nav.shrink .navbar-brand {
 .navbar .navbar-nav {
   display: inline-block;
   float: right;
-  background-color: $two;
+  background-color: $three;
 }
 nav .navbar-toggle {
   margin: 13px 15px 13px 0;
