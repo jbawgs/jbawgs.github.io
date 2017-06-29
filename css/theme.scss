@@ -30,21 +30,32 @@ $post-panel-color: #444;
 $footer-background-color: #292c2f;
 $note-color: #87CEFA;
 $warning-color: #ffff00;
+$one : #f8f8f0;
+$two : #49483E;
+$three : #3c3d37;
+$four : #75715e;
+$five : #f92672;
+$six : #ae81ff;
+$seven : #a6e22e;
+$eight : #e6db74;
+$nine : #9effff;
+$ten : #fd971f;
+$eleven : #373831;
 
 //********************************************************
 //                  Common styles
 //********************************************************
 body {
   padding-top: 80px;
-  color: $font-color;
-  background: $background-color;// url(./pics/triangles2.png);
+  color: $one;
+  background: $eleven;// url(./pics/triangles2.png);
   //background: $background-color url(./pics/squares.png); // Another good pattern for background
 }
 .well {
-  background-color: $post-panel-color;
+  background-color: $two;
   box-shadow: 0 0 0 0, 0px 8px 16px rgba(0, 0, 0, 0.2);
   border: 0;
-  border-radius: 6px;
+  border-radius: 3px;
   overflow: auto;
 }
 .main-page {
@@ -191,8 +202,12 @@ ul.sideBarTags {
 //                    Post
 //********************************************************
 h2.post-title {
+  color : $seven;
   padding-top: 10px;
   text-align: left;
+}
+a.post-excerpt{
+  color : $ten;
 }
 div.post-meta {
   border-width: 1px 0;
