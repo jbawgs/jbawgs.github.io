@@ -202,9 +202,11 @@ ul.sideBarTags {
 //                    Post
 //********************************************************
 h2.post-title {
-  color : $seven;
   padding-top: 10px;
   text-align: left;
+}
+a.post-title{
+  color : $seven;
 }
 a.post-excerpt{
   color : $ten;
