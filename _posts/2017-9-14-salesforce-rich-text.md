@@ -6,6 +6,7 @@ comments: true
 ---
 ## Salesforce Rich Text Editor
 ### How to unlock the power of CKEditor
+#####[Gist Here](https://gist.github.com/jbawgs/d2a97e71b299314b2a2f089a84fc0afc)
 
 When editing Rich Text fields, Salesforce employs a library called CKEditor, a popular WYSIWYG text editor used in a variety of web applications. You can customize CKEditor to your liking when you embed it in a page, and Salesforce has really stripped down its functionality in many ways.
 
