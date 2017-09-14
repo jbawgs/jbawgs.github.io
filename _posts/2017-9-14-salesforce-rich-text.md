@@ -6,7 +6,7 @@ comments: true
 ---
 ## Salesforce Rich Text Editor
 ### How to unlock the power of CKEditor
-##### [Gist Here](https://gist.github.com/jbawgs/d2a97e71b299314b2a2f089a84fc0afc)
+##### [`Gist Here`](https://gist.github.com/jbawgs/d2a97e71b299314b2a2f089a84fc0afc)
 
 When editing Rich Text fields, Salesforce employs a library called CKEditor, a popular WYSIWYG text editor used in a variety of web applications. You can customize CKEditor to your liking when you embed it in a page, and Salesforce has really stripped down its functionality in many ways.
 
@@ -41,7 +41,7 @@ When describing your new editor config in JS, you'll need to include these plugi
 }
 {%endhighlight%}
 
-And you also need to add the configuration option 'sfdcLabels':
+And you also need to add the configuration option `sfdcLabels`:
 {%highlight js%}
 sfdcLabels: {
     CkeMediaEmbed: {
@@ -90,7 +90,7 @@ This is also ripped from SF's editor config, and sets some strings needed for th
 
 A big improvement.
 
-I'll conclude with a JS snippet that can be dropped into any Visualforce page that has a rich text input field. Just wrap it in &lt;script&gt; tags and paste it in. It isn't super graceful, but to get the SF plugins to work correctly I needed to pull a few config variables out of the default configuration, i.e. the 'filebrowserImageUploadUrl' value, since the image upload plugin needs a security token I couldn't find access to anywhere else. This script checks every 50 milliseconds if the editor has been loaded, and when it has, steals the info it needs, kills the old one, and launches the shiny new one. its pretty seamless. So here's the sauce:
+I'll conclude with a JS snippet that can be dropped into any Visualforce page that has a rich text input field. Just wrap it in &lt;script&gt; tags and paste it in. It isn't super graceful, but to get the SF plugins to work correctly I needed to pull a few config variables out of the default configuration, i.e. the `filebrowserImageUploadUrl` value, since the image upload plugin needs a security token I couldn't find access to anywhere else. This script checks every 50 milliseconds if the editor has been loaded, and when it has, steals the info it needs, kills the old one, and launches the shiny new one. its pretty seamless. So here's the sauce:
 {%highlight js%}
 //values we need from the old editor
 var instanceName;
