@@ -15,8 +15,7 @@ Lets compare the boring editor:
 ![Bo-ring]({{ site.url | append:site.baseurl }}/images/sadeditor.PNG)
 
 To the awesome editor:
+<!--more-->
 ![Just Right]({{ site.url | append:site.baseurl }}/images/happyeditor.PNG)
 
 [https://github.com/jbawgs/sfdx-cli](https://github.com/jbawgs/sfdx-cli)
-
-<!--more-->
